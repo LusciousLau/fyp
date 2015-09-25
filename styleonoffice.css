@@ -1,0 +1,102 @@
+body{
+		max-width: 1300px;
+		background:yellowgreen;
+		margin:auto;
+}
+
+#top	{	height:100 px;
+			background: -webkit-linear-gradient(yellow, brown); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(yellow, brown); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(yellow, brown); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(yellow, brown); /* Standard syntax */
+			margin:0;
+			padding:0;
+
+		}
+		
+#top img{
+			display:inline;
+		}
+		
+#pagename {
+				display:inline;
+				font-size:30pt;
+				font-family: century gothic;
+				
+			
+			}
+			
+#bar {
+			display:block;
+			border-style:outset;
+			border-color:brown;
+			border-width:3px 4px 4px 3px;
+			width:9em;
+			height:2em;
+			background:brown;
+			color:#333;
+			line-height:2;
+			text-align:center;
+			text-decoration:none;
+			font-weight:900;
+			color: pink;
+		
+		}
+
+a{
+		text-decoration:none;
+		color: pink;
+}
+#bar{
+			
+			min-width:426.2px;
+			display: block;
+			float:left;
+}
+#bar:hover { color:white;}
+a:hover{color:white;}
+#tablebar{ display:block;}
+#admin_content{
+	float:left;
+	background:pink;
+	min-width:1300px;
+	min-height:1300px;
+	display:block;
+	margin-top:30px;
+}
+#left_side_bar {
+				display:block;
+				float:left;
+				background: white;
+				width:200px;
+				height:1300px;
+				font-size: 30px;
+				border-style:inset;
+				border-color:brown;
+				background: -webkit-linear-gradient(yellow, white); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(yellow, white); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(yellow, white); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(yellow, white); /* Standard syntax */
+}
+#right_side_bar{
+				display:block;
+				float:left;
+				background-color:;
+				width:1080px;
+				height:1300px;
+				margin-left: 5px;
+				border-style:inset;
+				border-color:brown;
+				
+				
+}
+H6{margin:0px;}
+#mainE1 {	
+			margin-bottom:20px;
+			}
+#mainE1:hover #sakai{display:block;}
+#mainE2:hover #sakai{display:block;}
+#sakai li {list-style-type:none;}
+#sakai ul {margin:0px;}
+#sakai{display:none;
+		font-size:20px;}
